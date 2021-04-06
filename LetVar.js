@@ -41,4 +41,3 @@ if (true){
 let u = 'let variables cannot be redeclared'
 console.log(u)
  
-
