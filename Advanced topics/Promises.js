@@ -31,5 +31,20 @@ func(2, 4).then(function(){ //then keyword is used to set resolve function
     console.log(error);
 })
 
-//Practical Example
-
+// Simple Example
+function checkGoogle(location) {
+    return new Promise((reject, resolve)=>{
+        console.log(`Making request to ${location}`)
+        if (location == 'google'){
+            resolve('location is google')
+        }else{
+            reject('location is not google')
+        }
+    })
+}
+let location = 'google'
+checkGoogle(location).then(function(msg){
+    console.log(msg)
+}).catch(function(error){
+    console.log(error)
+})
