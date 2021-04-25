@@ -1,5 +1,16 @@
 // Promises
+/**A JavaScript Promise object can be:
 
+Pending
+Fulfilled
+Rejected
+The Promise object supports two properties: state and result.
+
+While a Promise object is "pending" (working), the result is undefined.
+
+When a Promise object is "fulfilled", the result is a value.
+
+When a Promise object is "rejected", the result is an error object. */
 function func(num1, num2) {
     // Promise starts with new keyword
     return new Promise(function(resolve, reject){
