@@ -48,3 +48,6 @@ checkGoogle(location).then(function(msg){
 }).catch(function(error){
     console.log(error)
 })
+
+// Promise.all => it is used to access all the promise at same time
+//no matter how much time they take
