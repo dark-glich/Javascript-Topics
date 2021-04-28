@@ -4,8 +4,10 @@ A regular expression is an object that describes a pattern of characters.
 Regular expressions are used to perform pattern-matching and "search-and-replace" functions on text.
 */
 
-let regex = /Regex/;
-let text = 'To search the Regex Regex'
+let regex = /Regex/; // regular expression literal
+let text = 'To search the Regex Regex' // example text to search
+
+// Functions
 
 // 1. exec() returns a array if there is a match else returns null
 console.log(regex.exec(text)) // returns array
