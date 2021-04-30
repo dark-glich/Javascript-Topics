@@ -1,20 +1,23 @@
-[
+{
+     "company1":
      {
-          "name":"comapny 1",
+          "name":"ExampleName1",
           "date started": 1984,
           "field": "finance",
           "number of employees": 203
      },
+     "company2":
      {
-          "name":"comapny 2",
+          "name":"ExampleName2",
           "date started": 1992,
           "field": "Tech",
           "number of employees": 34
      },
+     "company3":
      {
-          "name":"comapny 3",
+          "name":"ExampleName3",
           "date started": 2004,
           "field": "e-commerce",
           "number of employees": 723
      }
-]
+}
