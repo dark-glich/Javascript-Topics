@@ -1,0 +1,20 @@
+[
+     {
+          "name":"comapny 1",
+          "date started": 1984,
+          "field": "finance",
+          "number of employees": 203
+     },
+     {
+          "name":"comapny 2",
+          "date started": 1992,
+          "field": "Tech",
+          "number of employees": 34
+     },
+     {
+          "name":"comapny 3",
+          "date started": 2004,
+          "field": "e-commerce",
+          "number of employees": 723
+     }
+]
