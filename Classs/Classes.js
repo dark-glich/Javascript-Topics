@@ -38,5 +38,5 @@ class Comics extends Books{
 comic1 = new Comics('Spiderman', 'Stan Lee', '2002', 'final edition')
 
 // No need to inherit prototype functions
-comic1.getSummary()
+comic1.getSummary();
 console.log(comic1);
